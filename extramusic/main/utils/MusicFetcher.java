@@ -16,7 +16,7 @@ public class MusicFetcher {
 		File f = new File(baseDir + "/../resources/mod/streaming/" + songFileName + ".ogg");
 		if(!f.exists() && !f.isDirectory()) {
 			extraMusicLogger.info("Song " + songFileName + " missing, downloading from CDN");	
-			try (BufferedInputStream in = new BufferedInputStream(new URL("https://cdn.rgbcraft.com/utilities/extramusic/" + songFileName + ".ogg").openStream());
+			try (BufferedInputStream in = new BufferedInputStream(new URL("http://cdn.rgbcraft.com/utilities/extramusic/" + songFileName + ".ogg").openStream());
 					FileOutputStream fileOutputStream = new FileOutputStream(baseDir + "/../resources/mod/streaming/" + songFileName + ".ogg")) {
 				byte dataBuffer[] = new byte[1024];
 				int bytesRead;
