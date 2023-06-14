@@ -27,14 +27,14 @@ import net.minecraftforge.common.MinecraftForge;
 
 
 
-@Mod(name="ExtraMusic", version="1.0", modid="ExtraMusic")
+@Mod(name="ExtraMusic", version="1.2", modid="ExtraMusic")
 public class Main extends BaseMod{
 	
 	public static Logger extraMusicLogger = Logger.getLogger("ExtraMusic");
 	
 	@Override
 	public String getVersion() {
-		return "1.1";
+		return "1.2";
 	}
 	
 	@SidedProxy(clientSide="extramusic.main.proxies.ClientProxy", serverSide="extramusic.main.proxies.ServerProxy")

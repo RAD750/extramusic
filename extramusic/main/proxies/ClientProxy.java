@@ -919,6 +919,7 @@ public class ClientProxy extends CommonProxy {
 		SoundFetcher.fetchSound(baseDir, "newsound/ic2nuclearControl/alarm-allarmeind.ogg");
 		SoundFetcher.fetchSound(baseDir, "newsound/ic2nuclearControl/alarm-625GQ.ogg");
 		SoundFetcher.fetchSound(baseDir, "newsound/ic2nuclearControl/alarm-pl.ogg");
+		SoundFetcher.fetchSound(baseDir, "newsound/ic2nuclearControl/alarm-pl_td96.ogg");
 		SoundFetcher.fetchSound(baseDir, "newsound/ic2nuclearControl/alarm-625msljet.ogg");
 		SoundFetcher.fetchSound(baseDir, "newsound/ic2nuclearControl/alarm-688dive.ogg");
 		SoundFetcher.fetchSound(baseDir, "newsound/ic2nuclearControl/alarm-default.ogg");
