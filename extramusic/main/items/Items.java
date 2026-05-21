@@ -9,7 +9,7 @@ import extramusic.main.CreativeTab;
 public class Items {
 	
 	public static Item ArrakisDisk, SavaraDisk, DaggerfallDisk, TimeForwardDisk, TakeTheATrainDisk, ChattanoogaChooChooDisk, BeyondTheSeaDisk, SolidAsARockDisk, SixteenTonsDisk, CBDisk,
-	bongoDisk, anythingGoesDisk, intoEachLifeDisk, gunWasLoadedDisk, setTheWorldOnFireDisk, TakeMeHomeDisk, praiseTheLordDisk, rocket69Disk, theEndOfTheWorldDisk, wouldntItBeNiceDisk;
+	bongoDisk, anythingGoesDisk, intoEachLifeDisk, gunWasLoadedDisk, setTheWorldOnFireDisk, TakeMeHomeDisk, praiseTheLordDisk, rocket69Disk, theEndOfTheWorldDisk, wouldntItBeNiceDisk, nationalAnthemDisk, nationalAnthemPADisk;
 	
 
 	
@@ -34,6 +34,8 @@ public class Items {
 	rocket69Disk = new MusicDisc(24217, 17, "rocket-69", "Rocket 69", "Connie Allen");
 	theEndOfTheWorldDisk = new MusicDisc(24218, 18, "the-end-of-the-world", "The End of The World", "Skeeter Davis");
 	wouldntItBeNiceDisk = new MusicDisc(24219, 19, "wouldnt-it-be-nice", "Wouldn't It Be Nice", "The Beach Boys");
+	nationalAnthemDisk = new MusicDisc(24220, 32, "inno-nazionale", "Inno Nazionale di Zorya", "Filarmonica Nazionale di New Radeon");
+	nationalAnthemPADisk = new MusicDisc(24221, 33, "inno-nazionale-pa", "Inno Nazionale di Zorya (PA)", "Filarmonica Nazionale di New Radeon");
 	
 	GameRegistry.registerItem(ArrakisDisk, "ArrakisDisk");
 	GameRegistry.registerItem(SavaraDisk, "SavaraDisk");
@@ -54,7 +56,8 @@ public class Items {
 	GameRegistry.registerItem(praiseTheLordDisk, "praiseTheLordDisk");
 	GameRegistry.registerItem(theEndOfTheWorldDisk, "theEndOfTheWorldDisk");
 	GameRegistry.registerItem(wouldntItBeNiceDisk, "wouldntItBeNiceDisk");
-
+	GameRegistry.registerItem(nationalAnthemDisk, "nationalAnthemDisk");
+	GameRegistry.registerItem(nationalAnthemPADisk, "nationalAnthemPADisk");
 	}
 	
 	 

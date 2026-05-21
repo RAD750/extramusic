@@ -58,7 +58,8 @@ public class ClientProxy extends CommonProxy {
 		MusicFetcher.fetchSong(baseDir, "rocket-69");
 		MusicFetcher.fetchSong(baseDir, "the-end-of-the-world");
 		MusicFetcher.fetchSong(baseDir, "wouldnt-it-be-nice");
-		
+		MusicFetcher.fetchSong(baseDir, "inno-nazionale");
+		MusicFetcher.fetchSong(baseDir, "inno-nazionale-pa");
 	
 		
 		//Download di tutti i suoni
@@ -993,7 +994,9 @@ public class ClientProxy extends CommonProxy {
 		SoundFetcher.fetchSound(baseDir, "mod/sound/AdvJetpacks_startup.ogg");
 		SoundFetcher.fetchSound(baseDir, "mod/sound/EnhGeo_RevUpDrill.ogg");
 		SoundFetcher.fetchSound(baseDir, "mod/sound/EnhGeo_StartDrill.ogg");
-		
+		SoundFetcher.fetchSound(baseDir, "mod/sound/eyecandycraft_tel.ogg)");
+		SoundFetcher.fetchSound(baseDir, "mod/sound/eyecandycraft_ob.ogg)");
+		SoundFetcher.fetchSound(baseDir, "mod/sound/eyecandycraft_FireAlarm.ogg)");
 	}
 
 	@Init
@@ -1001,7 +1004,7 @@ public class ClientProxy extends CommonProxy {
 		super.init(event);
 		// Preloading texture per evitare bug
 		MinecraftForgeClient.preloadTexture("/extramusic/textures/discs.png");
-		System.out.println("[Eyecandycraft] Preloading texture completato");
+		System.out.println("[ExtraMusic] Preloading texture completato");
 	}
 
 	@Mod.PostInit
